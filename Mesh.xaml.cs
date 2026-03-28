@@ -16,7 +16,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Dijkstra;
-
+// One agreed change
 public partial class Mesh : UserControl
 {
     Label[,] cell; // do not allocate here
