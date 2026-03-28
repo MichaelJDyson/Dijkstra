@@ -1,0 +1,19 @@
+﻿<Window x:Class="Dijkstra.DijkstraWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dijkstra"
+        mc:Ignorable="d"
+        Title="Dijkstra route solver - 10 x 10 grid" Height="550" Width="631"  ResizeMode="NoResize">
+
+    <Canvas x:Name="canvas">
+        <TextBox x:Name="tb" Canvas.Left="20" TextWrapping="Wrap" Canvas.Top="440" Width="579" Height ="20" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Button Content="Go new" Canvas.Left="20" Canvas.Top="470" Click="Button_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Height ="20"/>
+        <TextBox x:Name="timerOutput" Canvas.Left="256" TextWrapping="Wrap" Canvas.Top="472" Width="116" Height ="20" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Button Content="Refresh" Canvas.Left="87" Canvas.Top="470" Click="Button2_Click" Width="60" Height ="20" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <CheckBox Content="Auto Reroute" Canvas.Left="156" Canvas.Top="473" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked" IsChecked="True" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Right Click over cells to cycle thru options" Canvas.Left="375" Canvas.Top="468" HorizontalAlignment="Center" VerticalAlignment="Top" Width="231" Height="25"/>
+    </Canvas>
+
+</Window>

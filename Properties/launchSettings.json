@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Dijkstra": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}
